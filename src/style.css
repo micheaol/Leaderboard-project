@@ -1,81 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
 
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    margin-left: 5%;
-    font-family: 'Roboto', sans-serif;
-}
-ul {
-    border: 2px solid black;
-    list-style-type: none;
-    text-align: left;
-    margin: 2px;
-    padding: 2px;
-    font-family: 'Roboto', sans-serif;  
+  margin-left: 5%;
+  font-family: 'Roboto', sans-serif;
 }
 
-ul li:nth-child(even){
-    background-color: darkgray;
-    font-family: 'Roboto', sans-serif;
+ul {
+  border: 2px solid black;
+  list-style-type: none;
+  text-align: left;
+  margin: 2px;
+  padding: 2px;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul li:nth-child(even) {
+  background-color: darkgray;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main-board {
-    display: flex;
-    justify-content: center;
-    width: 95%;
+  display: flex;
+  justify-content: center;
+  width: 95%;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    
+  display: flex;
+  flex-direction: column;
 }
 
 input {
-    margin: 2.5%;
+  margin: 2.5%;
 }
 
 #reset-sec {
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
 }
 
 #display-score {
-    width: 40%;
-    margin-left: 5%;
+  width: 40%;
+  margin-left: 5%;
 }
 
 #set-score {
-    width: 40%;
-    margin-left: 10%;
+  width: 40%;
+  margin-left: 10%;
 }
 
 #submit-score-btn {
-    max-width: 50%;
-    align-self: flex-end;
-    margin-top: 5%;
+  max-width: 50%;
+  align-self: flex-end;
+  margin-top: 5%;
 }
 
 #refresh-score-btn {
-    height: 25%;
-    align-self: flex-end;
-    margin-bottom: 4%;
+  height: 25%;
+  align-self: flex-end;
+  margin-bottom: 4%;
 }
 
 footer {
-    background-color: darkgray;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding-left: 5%;
-
+  background-color: darkgray;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-left: 5%;
 }
