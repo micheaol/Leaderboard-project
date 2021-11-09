@@ -1,1 +1,39 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Leaderboard</title><script defer="defer" src="index_bundle.js"></script></head><body><h1>Hello Testing</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+<script defer src="index_bundle.js"></script></head>
+<body>
+    <h1>Leaderboard</h1>
+    <section class="main-board">
+        <div id="display-score">
+            <div id="score-board">
+                <div id="reset-sec">
+                    <h3>Recent scores </h3>
+                    <button id="refresh-score-btn">Refresh</button>
+                </div>
+                <ul>
+                    <li>Name: 10</li>
+                    <li>Name: 100</li>
+                    <li>Name: 50</li>
+                    <li>Name: 25</li>
+                    <li>Name: 50</li>
+                    <li>Name: 25</li>
+                </ul>
+            </div>
+        </div>
+        <div id="set-score">
+            <form >
+                <h3>Add your score</h3>
+                <input type="text" placeholder="Your name">
+                <input type="text" placeholder="Your score">
+                <button type="submit" value="Submit" id="submit-score-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer><p>© 2021 Leaderboard</p></footer>
+</body>
+</html>
