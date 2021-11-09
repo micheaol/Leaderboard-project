@@ -13,11 +13,13 @@ Additional description about the project and its features.
     -HTML
     -CSS
     -JavaScript
+    -Webpack
 - Frameworks
 - Technologies used
     -HTML
     -CSS
     -JS
+    -Webpack
     
 
 To get a local copy up and running follow these simple example steps.
