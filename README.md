@@ -2,7 +2,7 @@
 
 This is application will allow you to add, and view scores.
 
-![alt text](https://github.com/micheaol/to-do-list-app/blob/interactive-list/src/img.PNG)
+![screenshot](https://user-images.githubusercontent.com/10332499/140990110-d09a14c4-252e-43df-b843-e1520d72ad30.PNG)
 
 
 Additional description about the project and its features.
@@ -44,7 +44,7 @@ To get a local copy up and running follow these simple example steps.
 - Fullname: Michael Oladele
 - GitHub: [@micheaol](https://github.com/micheaol)
 - Twitter: [@micheaol](https://twitter.com/micheaol)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/micheaol)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/micheaol80)
 
 
 ## 🤝 Contributing
