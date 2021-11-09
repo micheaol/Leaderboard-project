@@ -5,8 +5,7 @@ const footer = `
 `;
 
 const renderFooter = () => {
-    body.insertAdjacentHTML('beforeend', footer);
-   
-  };
-  
-  export default renderFooter;
+  body.insertAdjacentHTML('beforeend', footer);
+};
+
+export default renderFooter;
