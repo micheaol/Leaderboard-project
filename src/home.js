@@ -21,14 +21,16 @@ const displayScore = `
 
 const setScore = `
 <div id="set-score">
-<form >
+<form id="form-id">
     <h3>Add your score</h3>
-    <input type="text" placeholder="Your name">
-    <input type="text" placeholder="Your score">
+    <input type="text" placeholder="Your name" id="name-field">
+    <input type="text" placeholder="Your score" id="score-field">
     <button type="submit" value="Submit" id="submit-score-btn">Submit</button>
 </form>
 </div>
 `;
+
+
 
 const renderHome = () => {
   content.insertAdjacentHTML('beforeend', displayScore);
