@@ -4,4 +4,3 @@ import getForm from './formdata.js';
 
 getForm();
 renderFooter();
-
