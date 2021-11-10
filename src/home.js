@@ -1,5 +1,3 @@
-
-
 const content = document.querySelector('.main-board');
 
 const displayScore = `
@@ -28,8 +26,6 @@ const setScore = `
 </form>
 </div>
 `;
-
-
 
 const renderHome = () => {
   content.insertAdjacentHTML('beforeend', displayScore);

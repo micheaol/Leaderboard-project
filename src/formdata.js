@@ -12,7 +12,7 @@ function getForm(e) {
   const name = document.querySelector('#name-field');
   const score = document.querySelector('#score-field');
 
-  //fetch to POST the data:
+  // fetch to POST the data:
   fetch(
     'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/TAndiRIq5l6QgrYO74Z7/scores',
     {
@@ -24,12 +24,10 @@ function getForm(e) {
       headers: {
         'Content-Type': 'application/json; charset=UTF-8',
       },
-    }
+    },
   )
-    .then(function (res) {
-      return res.json();
-    })
-    .then(function (data) {
+    .then((res) => res.json())
+    .then((data) => {
       const message = document.querySelector('#message');
       message.innerHTML = data.result;
       message.style.backgroundColor = 'green';
@@ -40,11 +38,13 @@ function getForm(e) {
 }
 async function fetchUser() {
   const user = await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/TAndiRIq5l6QgrYO74Z7/scores'
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/TAndiRIq5l6QgrYO74Z7/scores',
   );
 
   const data = await user.json();
   const newData = data.result;
+
+  table.innerHTML = '';
 
   newData.forEach((userData) => {
     const tr = document.createElement('tr');
