@@ -1,10 +1,11 @@
-import "core-js/stable";
-import "regenerator-runtime/runtime";
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
 import renderHome from './home.js';
 
 renderHome();
 const form = document.querySelector('#form-id');
 const refresh = document.querySelector('#refresh-score-btn');
+const table = document.querySelector('table');
 
 function getForm(e) {
   e.preventDefault();
@@ -33,24 +34,33 @@ function getForm(e) {
       message.innerHTML = data.result;
       message.style.backgroundColor = 'green';
     });
-}
 
+  name.value = '';
+  score.value = '';
+}
 async function fetchUser() {
-    const user = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/TAndiRIq5l6QgrYO74Z7/scores');
+  const user = await fetch(
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/TAndiRIq5l6QgrYO74Z7/scores'
+  );
 
-    const data = await user.json();
-    console.log(data)
+  const data = await user.json();
+  const newData = data.result;
 
+  newData.forEach((userData) => {
+    const tr = document.createElement('tr');
+    const tdUser = document.createElement('td');
+    tdUser.innerHTML = userData.user;
+    const tdScore = document.createElement('td');
+    tdScore.innerHTML = userData.score;
 
+    tr.appendChild(tdUser);
+    tr.appendChild(tdScore);
+
+    table.appendChild(tr);
+  });
 }
-
-
 
 refresh.addEventListener('click', fetchUser);
 form.addEventListener('submit', getForm);
 
 export default getForm;
-
-//to create new score for the game:
-//POST : https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/TAndiRIq5l6QgrYO74Z7/scores
-//GET : https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/TAndiRIq5l6QgrYO74Z7/scores

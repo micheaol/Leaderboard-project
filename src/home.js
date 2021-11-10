@@ -1,3 +1,5 @@
+
+
 const content = document.querySelector('.main-board');
 
 const displayScore = `
@@ -7,14 +9,10 @@ const displayScore = `
         <h3>Recent scores </h3>
         <button id="refresh-score-btn">Refresh</button>
     </div>
-    <ul>
-        <li>Name: 10</li>
-        <li>Name: 100</li>
-        <li>Name: 50</li>
-        <li>Name: 25</li>
-        <li>Name: 50</li>
-        <li>Name: 25</li>
-    </ul>
+<table>
+  
+</table>
+
 </div>
 </div>
 `;
