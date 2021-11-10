@@ -24,7 +24,7 @@ const getForm = (e) => {
       headers: {
         'Content-Type': 'application/json; charset=UTF-8',
       },
-    }
+    },
   )
     .then((res) => res.json())
     .then((data) => {
@@ -38,7 +38,7 @@ const getForm = (e) => {
 };
 const fetchUser = async () => {
   const user = await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/TAndiRIq5l6QgrYO74Z7/scores'
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/TAndiRIq5l6QgrYO74Z7/scores',
   );
 
   const data = await user.json();
