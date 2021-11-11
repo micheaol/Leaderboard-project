@@ -27,6 +27,9 @@ form {
 
 input {
   margin: 2.5%;
+  border: black 2px solid;
+  padding: 10px;
+  border-radius: 2px;
 }
 
 #reset-sec {
@@ -49,12 +52,15 @@ input {
   max-width: 50%;
   align-self: flex-end;
   margin-top: 5%;
+  margin-right: 10px;
+  box-shadow: 3px 3px;;
 }
 
 #refresh-score-btn {
   height: 25%;
   align-self: flex-end;
   margin-bottom: 4%;
+  box-shadow: 3px 3px;;
 }
 
 footer {
