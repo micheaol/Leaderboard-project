@@ -13,19 +13,6 @@ h1 {
   font-family: 'Roboto', sans-serif;
 }
 
-ul {
-  border: 2px solid black;
-  list-style-type: none;
-  text-align: left;
-  margin: 2px;
-  padding: 2px;
-  font-family: 'Roboto', sans-serif;
-}
-
-ul li:nth-child(even) {
-  background-color: darkgray;
-  font-family: 'Roboto', sans-serif;
-}
 
 .main-board {
   display: flex;
