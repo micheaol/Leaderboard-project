@@ -7,15 +7,17 @@ This is application will allow you to add, and view scores.
 
 Additional description about the project and its features.
 
+Leaderboard app is built to practice ES6 syntax, and Module Patterns concepts. Built with JavaScript, CSS, and Webpack.
+
 ## Built With
 
 - Major languages
     -HTML
     -CSS
     -JavaScript
-    -Webpack
-- Frameworks
-- Technologies used
+    
+
+- Frameworks and Technologies used:
     -HTML
     -CSS
     -JS
@@ -29,14 +31,14 @@ To get a local copy up and running follow these simple example steps.
 
 ## Major requirement
     -You must have Node.js install on your local machine
-    -You must know the basic of Javascrit, CSS, and HTML
+    
     
 ## Setup
-    -npm install
+    
     -Clone the repository to your local machine.
-    -npm install webpack webpack-cli --save-dev
+    -npm install
     -run npm start- To start the app
-    -Enter the tasks and click the icon to add.
+    
 
 
 ## Authors
@@ -59,11 +61,6 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

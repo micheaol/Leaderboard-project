@@ -7,13 +7,12 @@ const form = document.querySelector('#form-id');
 const refresh = document.querySelector('#refresh-score-btn');
 const table = document.querySelector('table');
 
-const getForm = (e) => {
+const getForm = async (e) => {
   e.preventDefault();
   const name = document.querySelector('#name-field');
   const score = document.querySelector('#score-field');
 
-  // fetch to POST the data:
-  fetch(
+  const res = await fetch(
     'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/TAndiRIq5l6QgrYO74Z7/scores',
     {
       method: 'POST',
@@ -25,13 +24,11 @@ const getForm = (e) => {
         'Content-Type': 'application/json; charset=UTF-8',
       },
     },
-  )
-    .then((res) => res.json())
-    .then((data) => {
-      const message = document.querySelector('#message');
-      message.innerHTML = data.result;
-      message.style.backgroundColor = 'green';
-    });
+  );
+  const data = await res.json();
+  const message = document.querySelector('#message');
+  message.innerHTML = data.result;
+  message.style.backgroundColor = 'green';
 
   name.value = '';
   score.value = '';
