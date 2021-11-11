@@ -7,8 +7,8 @@ const displayScore = `
         <h3>Recent scores </h3>
         <button id="refresh-score-btn">Refresh</button>
     </div>
-<table>
-  
+<table id="user">
+
 </table>
 
 </div>

@@ -12,7 +12,6 @@ const getForm = async (e) => {
   const name = document.querySelector('#name-field');
   const score = document.querySelector('#score-field');
 
-  // fetch to POST the data:
   const res = await fetch(
     'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/TAndiRIq5l6QgrYO74Z7/scores',
     {

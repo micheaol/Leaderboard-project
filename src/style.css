@@ -64,4 +64,24 @@ footer {
   bottom: 0;
   width: 100%;
   padding-left: 5%;
+  height: 2em;
+  padding-bottom: 5px;
+  border: black 2px solid;
 }
+
+#user {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  max-height: 50%;
+  border: 3px solid black;
+}
+
+#user td {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+#user tr:nth-child(even){background-color: #f2f2f2;}
+
+#user tr:hover {background-color: #ddd;}
