@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@1,300&family=Roboto&display=swap');
 
 body {
   box-sizing: border-box;
@@ -12,7 +13,6 @@ h1 {
   margin-left: 5%;
   font-family: 'Roboto', sans-serif;
 }
-
 
 .main-board {
   display: flex;
@@ -53,14 +53,14 @@ input {
   align-self: flex-end;
   margin-top: 5%;
   margin-right: 10px;
-  box-shadow: 3px 3px;;
+  box-shadow: 3px 3px;
 }
 
 #refresh-score-btn {
   height: 25%;
   align-self: flex-end;
   margin-bottom: 4%;
-  box-shadow: 3px 3px;;
+  box-shadow: 3px 3px;
 }
 
 footer {
@@ -88,6 +88,6 @@ footer {
   padding: 5px;
 }
 
-#user tr:nth-child(even){background-color: #f2f2f2;}
+#user tr:nth-child(even) { background-color: #f2f2f2; }
 
-#user tr:hover {background-color: #ddd;}
+#user tr:hover { background-color: #ddd; }
