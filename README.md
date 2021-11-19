@@ -1,9 +1,8 @@
 ### Leaderboard-project
 
-This is application will allow you to add, and view scores.
+This is application will allow you to add, and view scores. This application send data and receive data from an API. 
 
-![screenshot](https://user-images.githubusercontent.com/10332499/140990110-d09a14c4-252e-43df-b843-e1520d72ad30.PNG)
-
+![leaderboard_game](https://user-images.githubusercontent.com/10332499/142683846-d145922f-b85e-45e6-832b-5d062071a73a.PNG)
 
 Additional description about the project and its features.
 
@@ -22,7 +21,11 @@ Leaderboard app is built to practice ES6 syntax, and Module Patterns concepts. B
     -CSS
     -JS
     -Webpack
-    
+
+
+## Live Demo
+
+[Live Demo Link](https://micheaol.github.io/Portfolio-project/)
 
 To get a local copy up and running follow these simple example steps.
                 
