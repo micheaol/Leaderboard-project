@@ -25,7 +25,7 @@ Leaderboard app is built to practice ES6 syntax, and Module Patterns concepts. B
 
 ## Live Demo
 
-[Live Demo Link](https://micheaol.github.io/Portfolio-project/)
+[Live Demo Link](https://micheaol-leaderboard-game.netlify.app/)
 
 To get a local copy up and running follow these simple example steps.
                 
